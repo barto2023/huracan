@@ -1,0 +1,1009 @@
+use App\Models\Producto;
+use App\Models\Categoria;
+use App\Models\Persona;
+use App\Models\Cliente;
+use App\models\proveedor;
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+$v=Ciudad::find(1)->proveedors;
+use App\Models\Producto;
+use App\Models\Categoria;
+use App\Models\Persona;
+use App\Models\Cliente;
+use App\models\proveedor;
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+$pp=Producto::find(1);
+use App\Models\Producto;
+use App\Models\Categoria;
+use App\Models\Persona;
+use App\Models\Cliente;
+use App\models\proveedor;
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+$pp=Producto::find(1);
+$pp=Producto->proveedors()->attach(1);
+use App\Models\Producto;
+use App\Models\Categoria;
+use App\Models\Persona;
+use App\Models\Cliente;
+use App\models\Proveedor;
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+$pp=Producto::find(1);
+$pp=Producto->proveedors()->attach(1);
+use App\Models\Producto;
+use App\Models\Categoria;
+use App\Models\Persona;
+use App\Models\Cliente;
+use App\models\Proveedor;
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+$pp=Producto::find(1);
+$pp=Producto->proveedors()->attach(1);
+use App\Models\Producto;
+use App\Models\Categoria;
+use App\Models\Persona;
+use App\Models\Cliente;
+use App\models\Proveedor;
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+$pp=Producto::find(1);
+$pp=producto->proveedors()->attach(1);
+use App\Models\Producto;
+use App\Models\Categoria;
+use App\Models\Persona;
+use App\Models\Cliente;
+use App\models\Proveedor;
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+$pp=Producto::find(1);
+$pp=producto->proveedors()->attach(1);
+use App\Models\Producto;
+use App\Models\Categoria;
+use App\Models\Persona;
+use App\Models\Cliente;
+use App\models\Proveedor;
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+$pp=Producto::find(1);
+$producto->proveedors()->attach(1);
+use App\Models\Producto;
+use App\Models\Categoria;
+use App\Models\Persona;
+use App\Models\Cliente;
+use App\models\Proveedor;
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+$producto->proveedors()->attach(1);
+use App\Models\Producto;
+use App\Models\Categoria;
+use App\Models\Persona;
+use App\Models\Cliente;
+use App\models\Proveedor;
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+$producto->proveedors()->attach(1);
+use App\Models\Producto;
+use App\Models\Categoria;
+use App\Models\Persona;
+use App\Models\Cliente;
+use App\models\Proveedor;
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+$producto->proveedor()->attach(1);
+use App\Models\Producto;
+use App\Models\Categoria;
+use App\Models\Persona;
+use App\Models\Cliente;
+use App\models\Proveedor;
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+$producto->proveedor()->attach(1);
+use App\Models\Producto;
+use App\Models\Categoria;
+use App\Models\Persona;
+use App\Models\Cliente;
+use App\models\Proveedor;
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+$pp=producto->proveedor()->attach(1);
+use App\Models\Producto;
+use App\Models\Categoria;
+use App\Models\Persona;
+use App\Models\Cliente;
+use App\models\Proveedor;
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+$pp=producto->proveedor()->attach(1);
+use App\Models\Producto;
+use App\Models\Categoria;
+use App\Models\Persona;
+use App\Models\Cliente;
+use App\models\Proveedor;
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+$pp=producto->proveedor()->attach(1);
+use App\Models\Producto;
+use App\Models\Categoria;
+use App\Models\Persona;
+use App\Models\Cliente;
+use App\models\Proveedor;
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+$pp=producto->proveedors()->attach(1);
+use App\Models\Producto;
+use App\Models\Categoria;
+use App\Models\Persona;
+use App\Models\Cliente;
+use App\models\Proveedor;
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+$pp=producto->proveedors()->attach(1);
+use App\Models\Producto;
+use App\Models\Categoria;
+use App\Models\Persona;
+use App\Models\Cliente;
+use App\models\Proveedor;
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+$pp=Producto->proveedors()->attach(1);
+use App\Models\Producto;
+use App\Models\Categoria;
+use App\Models\Persona;
+use App\Models\Cliente;
+use App\models\Proveedor;
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+$pp=Producto->proveedors()->attach(1);
+use App\Models\Producto;
+use App\Models\Categoria;
+use App\Models\Persona;
+use App\Models\Cliente;
+use App\models\Proveedor;
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+$producto->proveedors()->attach(1);
+use App\Models\Producto;
+use App\Models\Categoria;
+use App\Models\Persona;
+use App\Models\Cliente;
+use App\models\Proveedor;
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+$pp=Producto::find(1);
+use App\Models\Producto;
+use App\Models\Categoria;
+use App\Models\Persona;
+use App\Models\Cliente;
+use App\models\Proveedor;
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+$pp=Producto::find(1)->proveedors;
+use App\Models\Producto;
+use App\Models\Categoria;
+use App\Models\Persona;
+use App\Models\Cliente;
+use App\models\Proveedor;
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+$pp=Producto::find(1)->proveedor;
+use App\Models\Producto;
+use App\Models\Categoria;
+use App\Models\Persona;
+use App\Models\Cliente;
+use App\models\Proveedor;
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+$pp=Productos::all()->proveedor;
+use App\Models\Producto;
+use App\Models\Categoria;
+use App\Models\Persona;
+use App\Models\Cliente;
+use App\models\Proveedor;
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+$pp=Producto::all()->proveedor;
+use App\Models\Producto;
+use App\Models\Categoria;
+use App\Models\Persona;
+use App\Models\Cliente;
+use App\models\Proveedor;
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+$pp=Producto::all()->proveedors;
+use App\Models\Producto;
+use App\Models\Categoria;
+use App\Models\Persona;
+use App\Models\Cliente;
+use App\models\Proveedor;
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+$pp=Producto::find(2)->proveedors;
+use App\Models\Producto;
+use App\Models\Categoria;
+use App\Models\Persona;
+use App\Models\Cliente;
+use App\models\Proveedor;
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+$pp=Producto::find(2)->proveedor;
+use App\Models\Producto;
+use App\Models\Categoria;
+use App\Models\Persona;
+use App\Models\Cliente;
+use App\models\Proveedor;
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+$pp=Producto::find(2)->proveedores;
+use App\Models\Producto;
+use App\Models\Categoria;
+use App\Models\Persona;
+use App\Models\Cliente;
+use App\models\Proveedor;
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+$pp=Producto::find(2)->proveedors;
+use App\Models\Producto;
+use App\Models\Categoria;
+use App\Models\Persona;
+use App\Models\Cliente;
+use App\models\Proveedor;
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+$pp=Producto::find(2)->proveedors;
+use App\Models\Producto;
+use App\Models\Categoria;
+use App\Models\Persona;
+use App\Models\Cliente;
+use App\models\Proveedor;
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+$pp=Producto::find(2)->proveedors;
+use App\Models\Producto;
+use App\Models\Categoria;
+use App\Models\Persona;
+use App\Models\Cliente;
+use App\models\Proveedor;
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+$pp=Producto::find(2);
+use App\Models\Producto;
+use App\Models\Categoria;
+use App\Models\Persona;
+use App\Models\Cliente;
+use App\models\Proveedor;
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+$p=proveedor::find(2);
+use App\Models\Producto;
+use App\Models\Categoria;
+use App\Models\Persona;
+use App\Models\Cliente;
+use App\models\Proveedor;
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+$p=proveedor::find(2);
+use App\Models\Producto;
+use App\Models\Categoria;
+use App\Models\Persona;
+use App\Models\Cliente;
+use App\models\Proveedor;
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+$p=proveedor::find(2)->productos;
+use App\Models\Producto;
+use App\Models\Categoria;
+use App\Models\Persona;
+use App\Models\Cliente;
+use App\models\Proveedor;
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+$p=proveedor::find(1)->productos;
+use App\Models\Producto;
+use App\Models\Categoria;
+use App\Models\Persona;
+use App\Models\Cliente;
+use App\models\Proveedor;
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+$p=proveedor::find(3)->productos;
+use App\Models\Producto;
+use App\Models\Categoria;
+use App\Models\Persona;
+use App\Models\Cliente;
+use App\models\Proveedor;
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+$p=proveedor::find(3)->productos->all();
+use App\Models\Producto;
+use App\Models\Categoria;
+use App\Models\Persona;
+use App\Models\Cliente;
+use App\models\Proveedor;
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+$p=proveedor::find(3)->productos->all([]);
+use App\Models\Producto;
+use App\Models\Categoria;
+use App\Models\Persona;
+use App\Models\Cliente;
+use App\models\Proveedor;
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+$p=proveedor::find(3);
