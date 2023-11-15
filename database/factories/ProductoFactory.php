@@ -18,6 +18,7 @@ class ProductoFactory extends Factory
     {
         return [
             'categoria_id'=>random_int(1,10),
+            'cod_producto'=>random_int(1,10),
             'marca'=>"marca".random_int(1,10),
             'descripcion'=>$this->faker->address(),
             'foto'=>$this->faker->url(),

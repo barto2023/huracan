@@ -20,4 +20,9 @@ class Persona extends Model
         return $this->hasOne(Cliente::class);
     }
 
+    public function tecnico(): HasOne
+    {
+        return $this->hasOne(Tecnico:: class);
+    }
+
 }

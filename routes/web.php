@@ -7,6 +7,14 @@ use App\Http\Controllers\CiudadController;
 use App\Http\Controllers\PersonaController;
 use App\Http\Controllers\ProveedorController;
 use App\Http\Controllers\ClienteController;
+use App\Http\Controllers\TecnicoController;
+use App\Http\Controllers\ServicioController;
+use App\Http\Controllers\CompraController;
+use App\Http\Controllers\Detalle_compraController;
+use App\Http\Controllers\InventarioController;
+use App\Http\Controllers\VentaController;
+use App\Http\Controllers\DetalleVentaController;
+
 // use Intervention\Image\ImageManagerStatic as Image;
 // use Intervention\Image\ImageManager;
 /*
@@ -87,6 +95,75 @@ route::get('proveedor/update/{proveedor}', [ProveedorController:: class, 'update
 route::get('proveedor/show/{proveedor}', [ProveedorController:: class, 'show'])->name("proveedor.show");
 route::get('proveedor/destroy', [ProveedorController:: class, 'destroy'])->name("proveedor.destroy");
 //fin de rutas proveedores
+//----------------------------------------------------------------------------------------------------------------
+//inicio de rutas tecnicos
+route::get('tecnicos/index', [TecnicoController:: class, 'index'])->name("tecnico.index");
+route::get('tecnico/create', [TecnicoController:: class, 'create'])->name("tecnico.create");
+route::post('tecnico/store', [TecnicoController:: class, 'store'])->name("tecnico.store");
+route::get('tecnico/edit/{tecnico}', [TecnicoController:: class, 'edit'])->name("tecnico.edit");
+route::get('tecnico/update{tecnico}', [TecnicoController:: class, 'update'])->name("tecnico.update");
+route::get('tecnico/show/{tecnico}', [TecnicoController:: class, 'show'])->name("tecnico.show");
+route::get('tecnico/destroy', [TecnicoController:: class, 'destroy'])->name("tecnico.destroy");
+// fin rutas tecnicos
+//-------------------------------------------------------------------------------------------------------
+// inicio rutas servicios
+route::get('servicios/index', [ServicioController:: class, 'index'])->name("servicio.index");
+route::get('servicio/create', [ServicioController:: class, 'create'])->name("servicio.create");
+route::post('servicio/store', [ServicioController:: class, 'store'])->name("servicio.store");
+route::get('servicio/edit/{servicio}', [ServicioController:: class, 'edit'])->name("servicio.edit");
+route::get('servicio/update/{servicio}', [ServicioController:: class, 'update'])->name("servicio.update");
+route::get('servicio/show/{servicio}', [ServicioController:: class, 'show'])->name("servicio.show");
+route::get('servicio/destroy', [ServicioController:: class, 'destroy'])->name("servicio.destroy");
+// fin de ruta servicios
+//-------------------------------------------------------------------------------------------------------------
+// inicio rutas compra
+route::get('compras/index', [CompraController:: class, 'index'])->name("compra.index");
+route::get('compra/create', [CompraController:: class, 'create'])->name("compra.create");
+route::post('compra/store', [CompraController:: class, 'store'])->name("compra.store");
+route::get('compra/edit/{compra}', [CompraController:: class, 'edit'])->name("compra.edit");
+route::get('compra/update/{compra}', [CompraController:: class, 'update'])->name("compra.update");
+route::get('compra/show/{compra}', [CompraController:: class, 'show'])->name("compra.show");
+route::get('compra/destroy', [CompraController:: class, 'destroy'])->name("compra.destroy");
+// fin rutas compra
+//------------------------------------------------------------------------------------------------------
+//inicio rutas detalle_compras
+route::get('detalle_compras/index', [Detalle_compraController:: class, 'index'])->name("detalle_compra.index");
+route::get('detalle_compra/create', [Detalle_compraController:: class, 'create'])->name("detalle_compra.create");
+route::post('detall_compra/store', [Detalle_compraController:: class, 'store'])->name("detalle_compra.store");
+route::get('detalle_compra/edit/{detalle_compra}', [Detalle_compraController:: class, 'edit'])->name("detalle_compra.edit");
+route::get('detalle_compra/update/{detalle_compra}', [Detalle_compraController:: class, 'update'])->name("detalle_compra.update");
+route::get('detalle_compra/show/{detalle_compra}', [Detalle_compraController:: class, 'show'])->name("detalle_compra.show");
+route::get('detalle_compra/destroy', [Detalle_compraController:: class, 'destroy'])->name("detalle_compra.destroy");
+// fin rutas detalle_compras
+//----------------------------------------------------------------------------------------------------------------------------------
+//inicio rutas inventario
+route::get('inventarios/index', [InventarioController:: class, 'index'])->name("inventario.index");
+route::get('inventario/create', [InventarioController:: class, 'create'])->name("inventario.create");
+route::post('inventario/store', [InventarioController:: class, 'store'])->name("inventario.store");
+route::get('inventario/edit/{inventario}', [InventarioController:: class, 'edit'])->name("inventario.edit");
+route::get('inventario/update/{inventario}', [InventarioController:: class, 'update'])->name("inventario.update");
+route::get('inventario/show/{inventario}', [InventarioController:: class, 'show'])->name("inventario.show");
+route::get('inventario/destroy', [InventarioController:: class, 'destroy'])->name("inventario.destroy");
+//fin de rutas inventario
+//---------------------------------------------------------------------------------------------------------------------
+//inicio rutas ventas
+route::get('ventas/index', [VentaController:: class, 'index'])->name("venta.index");
+route::get('venta/create', [VentaController:: class, 'create'])->name("venta.create");
+route::post('venta/store', [VentaController:: class, 'store'])->name("venta.store");
+route::get('venta/edit/{venta}', [VentaController:: class, 'edit'])->name("venta.edit");
+route::get('venta/update/{venta}', [VentaController:: class, 'update'])->name("venta.update");
+route::get('venta/show/{venta}', [VentaController:: class, 'show'])->name("venta.show");
+route::get('venta/destroy', [VentaController:: class, 'destroy'])->name("venta.destroy");
+//fin rutas venta
+//----------------------------------------------------------------------------------------------------------------------
+//inicio rutas detalle_ventas
+route::get('detalle_ventas/index', [DetalleVentaController:: class, 'index'])->name("detalle_venta.index");
+route::get('detalle_venta/create', [DetalleVentaController:: class, 'create'])->name("detalle_venta.create");
+route::post('detalle_venta/store', [DetalleVentaController:: class, 'store'])->name("detalle_venta.store");
+route::get('detalle_venta/edit/{detalle_venta}', [DetalleVentaController:: class, 'edit'])->name("detalle_venta.edit");
+route::get('detalle_venta/update/{detalle_venta}', [DetalleVentaController:: class, 'update'])->name("detalle_venta.update");
+route::get('detalle_venta/show/{detalle_venta', [DetalleVentaController:: class, 'edit'])->name("detalle_venta.edit");
+route::get('detalle_venta/destroy', [DetalleVentaController:: class, 'destroy'])->name("detalle_venta.destroy");
 
 Auth::routes(); 
 

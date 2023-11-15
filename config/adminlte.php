@@ -341,11 +341,12 @@ return [
                     'text' => 'Categorias',
                     'style'=> 'bg-primary',
                     'url'  => 'categorias/index',
-                    'icon' => 'fa-solid fa-city',
+                    'icon' => '<fa-sharp fa-solid fa-clipboard-list',
                 ],
                 [
                     'text' => 'Productos',
                     'url'  => 'productos/index',
+                    'icon' => 'fa-solid fa-camera-movie',
                 ],
                 [
                     'text' => 'Personas',
@@ -355,14 +356,42 @@ return [
                 [
                     'text' => 'Ciudades',
                     'url'  => 'ciudads/index',
+                    'icon' => 'fa-solid fa-city',
                 ],
                 [
                     'text' => 'Clientes',
                     'url'  => 'clientes/index',
+                    'icon' => 'fas fa-users',
                 ],
                 [
                     'text' => 'Proveedores',
                     'url'  => 'proveedors/index',
+                    'icon' => 'fas fa-shipping-fast',
+                ],
+                [
+                    'text' => 'Tecnicos',
+                    'url'  => 'tecnicos/index',
+                    'icon' => 'fas fa-user-cog',
+                ],
+                [
+                    'text' => 'Servicios',
+                    'url'  => 'servicios/index',
+                    'icon' => 'fas fa-tools',
+                ],
+                [
+                    'text' => 'Compras',
+                    'url'  => 'compras/index',
+                    'icon' => 'fas fa-cart-arrow-down',
+                ],
+                [
+                    'text' => 'Inventarios',
+                    'url'  => 'inventarios/index',
+                    'icon' => '',
+                ],
+                [
+                    'text' => 'Ventas',
+                    'url'  => 'ventas/index',
+                    'icon' => '',
                 ],
                 // [
                 //     'text'    => 'level_one',

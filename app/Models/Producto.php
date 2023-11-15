@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\BelongsToMany;
 
@@ -18,6 +19,11 @@ class Producto extends Model
     public function proveedors():BelongsToMany
     {
         return $this->belongsToMany(Proveedor::class);
+    }
+
+    public function inventarios(): HasMany  
+    {
+        return $this->hasMany(Inventario::class);
     }
 
 }

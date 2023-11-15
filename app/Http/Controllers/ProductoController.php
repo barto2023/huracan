@@ -40,6 +40,7 @@ class ProductoController extends Controller
     {
         $producto= new Producto();
         $producto->categoria_id=$request->categoria_id;
+        $producto->cod_producto=substr($request->descripcion, 0, 5);
         $producto->marca=$request->marca;
         $producto->descripcion=$request->descripcion;
         // dd($request->foto);muestra especifico

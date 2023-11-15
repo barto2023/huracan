@@ -67,7 +67,7 @@ class ProveedorController extends Controller
      */
     public function update(UpdateProveedorRequest $request, Proveedor $proveedor)
     {
-        $proveedor= new Proveedor();
+       
         $proveedor->ciudad_id=$request->ciudad_id;
         $proveedor->razon_social=$request->razon_social;
         $proveedor->nit=$request->nit;
@@ -82,11 +82,11 @@ class ProveedorController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(EliminarRequest $proveedor)
+    public function destroy(EliminarRequest $request)
     {
-        $provedor= Proveedor::findOrfail($request->id);
-        $provedor->estado=0;
-        $provedor->save();
+        $proveedor=Proveedor::findOrfail($request->id);
+        $proveedor->estado=0;
+        $proveedor->save();
 
         return response()->json(["mensajito"=>"Registro eliminado correctamente", "ciudad"=>$proveedor], 200);
     }

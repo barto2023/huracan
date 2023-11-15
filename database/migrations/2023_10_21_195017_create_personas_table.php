@@ -20,6 +20,7 @@ return new class extends Migration
             $table->string('direccion', 70);
             $table->string('correo', 50);
             $table->boolean('estado')->default(1);
+            
             $table->unsignedBigInteger('ciudad_id');
             $table->foreign('ciudad_id', 'fk_persona_ciudad')
             ->references('id')->on('ciudads')

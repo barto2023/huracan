@@ -14,11 +14,15 @@ return new class extends Migration
         Schema::create('inventarios', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('stock');
-            $table->decimal('precio_compra');
-            $table->decimal('precio_venta');
+            $table->decimal('precio_compra', 10, 2);
+            $table->decimal('precio_venta', 10, 2);
             $table->boolean('estado')->default(1);
-            $table->unsignedBigInteger('id_producto');
-            $table->foreign('id_producto', 'fk_inventario_producto')->references('id')->on('productos');
+            
+            $table->unsignedBigInteger('producto_id');
+            $table->foreign('producto_id', 'fk_inventario_producto')
+            ->references('id')->on('productos')
+            ->onDelete('cascade');
+
             $table->timestamps();
         });
     }

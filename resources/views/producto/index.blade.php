@@ -30,6 +30,7 @@
                     <tr>
                         <th>ID</th>
                         <th>CATEGORIA</th>
+                        <th>COD_PRODUCTO</th>
                         <th>MARCA</th>
                         <th>DESCRIPCION</th>
                         <th>FOTO</th>
@@ -43,6 +44,7 @@
                         <tr id="{{$producto->id}}">
                             <td>{{$producto->id}}</td>
                             <td>{{$producto->categoria->nombre}}</td>
+                            <td>{{$producto->cod_producto}}</td>
                             <td>{{$producto->marca}}</td>
                             <td>{{$producto->descripcion}}</td>
                             {{-- <td>{{$producto->foto}}</td> --}}

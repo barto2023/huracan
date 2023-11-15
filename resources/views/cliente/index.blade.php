@@ -1,4 +1,4 @@
-{{"HOLA MUNDO"}}
+
 @extends('adminlte::page')
 
 @section('title', 'Dashboard')
